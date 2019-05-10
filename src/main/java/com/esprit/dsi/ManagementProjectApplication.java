@@ -8,8 +8,6 @@ public class ManagementProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManagementProjectApplication.class, args);
-		///testt2
-		///testt3
 	}
 
 }
