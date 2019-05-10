@@ -20,7 +20,7 @@ public class DocumentController {
 		model.addAttribute("allDocs", docService.getAllDocuments());
 		return "allDocs";
 	}
-
+//test5
 	@RequestMapping(value = { "/docEdit", "/docEdit/{id_doc}" }, method = RequestMethod.GET)
 	public String docEditForm(Model model, @PathVariable(required = false, name = "id_doc") Document doc) {
 		if (null != doc) {
